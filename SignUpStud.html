@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Login</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    #bg {
+      background-color: #0302025e;
+    }
+
+
+    .EmergencyCont {
+      width: 50%;
+      align-items: center;
+      text-align: center;
+      border: solid 1px;
+      background-color: white;
+      border-radius: 20px;
+      border-color: rgba(169, 165, 165, 0.525);
+      padding: 3px;
+      margin: auto;
+      margin-bottom: 8px;
+      color: rgb(22, 21, 23);
+      background-color: rgba(45, 45, 49, 0.251);
+
+    }
+
+    .EmergencyCont:hover {
+      background-color: rgba(71, 71, 76, 0.487);
+    }
+
+
+    #signUp {
+      background-color: rgba(64, 71, 200, 0.723);
+      width: 90%;
+      margin: auto;
+      border-radius: 5px;
+      color: black;
+      height: 35px;
+    }
+
+    #signUp:hover {
+      background-color: blueviolet;
+    }
+
+
+    #LoginPage {
+      padding: 20px;
+      margin: auto;
+    }
+
+    #bigB {
+      padding: 5px;
+    }
+
+    h2 {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #5c258f;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="bg" class="text-gray-600 body-font">
+    <div id="bigB" class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+
+      <img src="./logo.png" alt="Logo" style="width: 80%; max-width: 300px; margin: 0 auto; display: block;">
+
+      <div id="LoginPage"
+        class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+        <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
+
+        <div class="relative mb-4">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+          <input type="text" id="full-name" name="full-name"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+
+        <div class="relative mb-4">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">Department</label>
+          <input type="text" id="full-name" name="full-name"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+
+        <div class="relative mb-4">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">Branch</label>
+          <input type="text" id="full-name" name="full-name"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+
+        <div class="relative mb-4">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">Year</label>
+          <input type="text" id="full-name" name="full-name"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+
+        <div class="relative mb-4">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email (College Email)</label>
+          <input type="email" id="email" name="email"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+
+        <div class="relative mb-4">
+          <label for="email" class="leading-7 text-sm text-gray-600">Password</label>
+          <input type="password" id="password" name="email"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+
+        <button class="EmergencyCont">
+          <a href="EmergencyContact.html">Add Emergency Contacts</a>
+        </button>
+
+
+        <button id="signUp" onclick="window.location.href = 'loginPage.html';">
+          Sign Up
+        </button>
+
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
